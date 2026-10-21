@@ -17,7 +17,7 @@ Un solo servicio expone **chat + API** en el puerto `PORT` (front estático en `
    | `PORT` | `10000` (Render suele asignar; deja que Render setee `PORT`) |
 
 4. **Health check path:** `/api/health`
-5. Tras el deploy, abre `https://<tu-servicio>.onrender.com`
+5. Tras el deploy, abre la URL del servicio (ejemplo desplegado: https://reto-02-contratos-amxv.onrender.com/)
 6. Copia esa URL en `README.md` (sección link de evaluación).
 
 **Nota:** En plan free el disco es **efímero**; al reiniciar el contenedor se pierde `out/`. Para la demo: **Resetear buzón** en la UI o procesar de nuevo.

@@ -91,7 +91,7 @@ El mock **no** sustituye razonamiento natural del modelo; replica el flujo de `d
 | Chat + tool UI | Hecho | `web/` |
 | Ciclo agente CA1–CA5 | Hecho | Parcial streaming (no implementado, opcional PRD) |
 | `contratos_leer_pdf` P1 | No hecho | Opcional |
-| Link público | Listo para deploy | `DEPLOY.md`, `Dockerfile`, `render.yaml` |
+| Link público | Hecho | https://reto-02-contratos-amxv.onrender.com/ |
 
 ## 10. Uso de IA (construcción)
 

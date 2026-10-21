@@ -62,9 +62,11 @@ Guía paso a paso: **[DEPLOY.md](./DEPLOY.md)** (Render + Docker + checklist).
 **Render (rápido):** repo en GitHub → New Web Service → Docker → health `/api/health`  
 O usa el blueprint **`render.yaml`** en la raíz del proyecto.
 
-**URL pública (actualizar tras desplegar):**
+**URL pública (demo en Render):**
 
-> `https://TU-SERVICIO.onrender.com`
+> https://reto-02-contratos-amxv.onrender.com/
+
+Health: https://reto-02-contratos-amxv.onrender.com/api/health
 
 Si solo defiendes en local, indícalo en la entrega (penalización −10 según PRD).
 
