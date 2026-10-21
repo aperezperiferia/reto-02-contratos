@@ -1,0 +1,38 @@
+{
+  "name": "reto-02-contratos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx demo.ts",
+    "dev": "concurrently -n api,web -c blue,green \"tsx watch src/server.ts\" \"vite\"",
+    "dev:api": "tsx watch src/server.ts",
+    "dev:web": "vite",
+    "build:web": "vite build",
+    "build": "npm run build:web",
+    "start": "tsx src/server.ts",
+    "reset:out": "tsx scripts/reset-out.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/tools/extract-fixtures.test.ts",
+    "extract:report": "tsx scripts/extract-report.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "concurrently": "^9.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.1.12"
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      LLM_PROVIDER: mock
+      ALLOW_DEMO_RESET: "true"
+      PORT: 3000
+      NODE_ENV: production
+    volumes:
+      - ./out:/app/out
